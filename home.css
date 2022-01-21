@@ -1,40 +1,45 @@
 * {
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
-}
-
-body {
-    min-height: 100vh;
-    background-color: aqua;
-}
-
-.navbar {
-    width: 250px;
-    height: 100vh;
-    position: fixed;
-    background-color: rgb(252, 253, 169);
-    transition: 0.4s;
-}
-
-.container input {
-    margin-left: 200px;
-}
-
-.card a {
-    color: black;
-    margin-left: 100px;
+    list-style: none;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: black;
 }
 
-@media only screen and (max-width: 700px) {
-    .container i {
+#hum-menu {
+    display: none;
+}
+
+#sidebar {
+    background-color: #FAFFC1;
+    width: 200px;
+    height: 648px;
+}
+
+
+.card {
+    background: #FAFFC1;
+    border: none;
+}
+
+.list-group a {
+    background-color: #FAFFC1;
+    border: none;
+}
+@media only screen and (max-width:800px) {
+    nav {
         display: none;
     }
-    .card {
-        margin-top: 15px;
+    #hum-menu {
+        display: block;
     }
-    .container input {
-        margin-left: 50px;
+    #check:checked+#sidebar {
+        display: block;
+        width: 50%;
     }
+    #ico {
+        display: none;
+    }
+    
 }

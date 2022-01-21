@@ -28,7 +28,7 @@
                 <label for="password">Password</label>
                 <input type="password" class="form-control mt-2 " id="floatingPassword" placeholder="Enter your Password">
             </div>
-            <button class=" btn  btn-primary" type="submit"><a href="home.html">Sign in</a></button>
+            <button class=" btn  btn-primary" type="submit"><a href="./home.php">Sign in</a></button>
             <label>
           </label>
             </div>
